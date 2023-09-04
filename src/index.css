@@ -14,4 +14,5 @@ code {
 
 .content {
   min-height: calc(100vh - 64px - 70px);
+  padding: 24px 0;
 }
