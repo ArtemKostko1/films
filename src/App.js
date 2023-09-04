@@ -1,7 +1,9 @@
-function App() {
+import Header from "./layout/Header/Header";
+
+const App = () => {
   return (
     <div className="App">
-      
+      <Header />
     </div>
   );
 }

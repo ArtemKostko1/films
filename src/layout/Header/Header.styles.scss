@@ -1,0 +1,13 @@
+.appBar-wrapper {
+  background-color: #1890ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .appBar-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
