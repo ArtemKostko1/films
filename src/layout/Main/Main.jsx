@@ -24,13 +24,11 @@ class Main extends React.Component {
     const { films, loading } = this.state;
     return (
       <main className="container content">
-        <row className="main-content">
-          {films.length && !loading ? (
-            <Films films={this.state.films} />
-          ) : (
-            <Spin className="spin" size="large" />
-          )}
-        </row>
+        {films.length && !loading ? (
+          <Films films={this.state.films} />
+        ) : (
+          <Spin className="spin" size="large" />
+        )}
       </main>
     );
   }
