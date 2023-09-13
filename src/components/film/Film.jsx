@@ -2,6 +2,8 @@ import React from "react";
 import { Card } from "antd";
 import "./Films.styles.scss";
 
+const { Meta } = Card;
+
 const Film = (props) => {
   const {
     Title: title,
@@ -18,6 +20,7 @@ const Film = (props) => {
       hoverable
       cover={<img alt={title} src={poster} />}
     >
+      <Meta title={title}/>
       <p>
         {year}, <span className="card-film-type">{type}</span>
       </p>

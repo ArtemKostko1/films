@@ -15,9 +15,11 @@ code {
 
 .content {
   max-width: 1400px;
-  min-height: calc(100vh - 64px - 70px);
+  min-height: calc(100vh - 64px - 150px);
   margin: 0 auto;
   padding: 24px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
